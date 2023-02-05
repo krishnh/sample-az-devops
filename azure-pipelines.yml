@@ -1,6 +1,8 @@
 trigger:
   - master 
     
+pool:
+  name: "SelfHostedAwsLinux"
 stages: 
  - stage: 'build'
    jobs:
